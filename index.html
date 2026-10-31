@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GCS Dashboard | GMAT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">GMAT</span>
+      <div>
+        <h1>Ground Control Station</h1>
+        <p>Gadjah Mada Aerospace Team</p>
+      </div>
+    </div>
+    <div class="status">
+      <span class="dot"></span>
+      <span>Link Active</span>
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <section class="card card-altitude">
+      <div class="card-head">
+        <span class="card-title">Altitude</span>
+        <span class="card-tag">Barometer</span>
+      </div>
+      <div class="card-value">
+        <span class="value">1250</span>
+        <span class="unit">m</span>
+      </div>
+      <div class="bar"><div class="bar-fill" style="width: 62%"></div></div>
+      <div class="bar-scale"><span>0</span><span>2000 m</span></div>
+    </section>
+
+    <section class="card card-pitch">
+      <div class="card-head">
+        <span class="card-title">Pitch</span>
+        <span class="card-tag">IMU</span>
+      </div>
+      <div class="card-value">
+        <span class="value">12.5</span>
+        <span class="unit">&deg;</span>
+      </div>
+      <div class="bar"><div class="bar-fill" style="width: 57%"></div></div>
+      <div class="bar-scale"><span>-90&deg;</span><span>+90&deg;</span></div>
+    </section>
+
+    <section class="card card-roll">
+      <div class="card-head">
+        <span class="card-title">Roll</span>
+        <span class="card-tag">IMU</span>
+      </div>
+      <div class="card-value">
+        <span class="value">-8.3</span>
+        <span class="unit">&deg;</span>
+      </div>
+      <div class="bar"><div class="bar-fill" style="width: 45%"></div></div>
+      <div class="bar-scale"><span>-90&deg;</span><span>+90&deg;</span></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Dummy data for demonstration</span>
+    <span>GCS Interface v1.0</span>
+  </footer>
+</body>
+</html>
